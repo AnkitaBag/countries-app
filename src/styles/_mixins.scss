@@ -1,0 +1,12 @@
+@mixin section {
+  padding-left: 75px;
+  padding-right: 75px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@mixin transition {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}

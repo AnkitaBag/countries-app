@@ -1,0 +1,156 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+/*
+DESKTOP/MOBILE:
+32/22
+24/14
+18/18
+16/14
+14/12
+*/
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18p;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 1px;
+}
+
+header {
+  background-color: #fff;
+}
+
+header .section {
+  padding-left: 75px;
+  padding-right: 75px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+header .section h2 {
+  font-weight: 800;
+}
+
+header .section h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+header .section h4 svg {
+  margin-right: 5px;
+}
+
+main {
+  background-color: var(--lightBackground);
+  padding: 48px 0px;
+}
+
+.filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filters__search {
+  background: #fff;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 480px;
+  border-radius: 5px;
+}
+
+.filters__search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-left: 25px;
+}
+
+.filters__search form svg {
+  fill: #848484;
+}
+
+.filters__search form input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+:root {
+  --lightElement: hsl(0, 0%, 100%);
+  --lightBackground: hsl(0, 0%, 98%);
+  --lightInput: hsl(0, 0%, 52%);
+  --lightText: hsl(200, 15%, 8%);
+}
+
+.section {
+  padding-left: 75px;
+  padding-right: 75px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*
+80px sa strana
+48px od headera
+75px visina izmedju elemenata gore i sa strana
+*/
+/*# sourceMappingURL=main.css.map */

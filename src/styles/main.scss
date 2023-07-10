@@ -1,0 +1,23 @@
+@import "./mixins";
+@import "./loader";
+
+@import "./reset";
+@import "./typography";
+@import "./animations";
+
+@import "./header";
+@import "./body";
+
+
+:root {
+  --darkElement: hsl(209, 23%, 22%);
+  --darkBackground: hsl(207, 26%, 17%);
+  --lightElement: hsl(0, 0%, 100%);
+  --lightBackground: hsl(0, 0%, 98%);
+  --lightInput: hsl(0, 0%, 52%);
+  --lightText: hsl(200, 15%, 8%);
+}
+
+.section {
+  @include section;
+}

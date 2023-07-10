@@ -1,0 +1,27 @@
+header {
+  background-color: #fff;
+  border-bottom: 3px solid var(--lightBackground);
+  @include transition;
+
+  .section {
+    @include section;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    h2 {
+      font-weight: 800;
+    }
+
+    h4 {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      cursor: pointer;
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+}
